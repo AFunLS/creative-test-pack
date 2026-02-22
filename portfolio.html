@@ -22,12 +22,14 @@ body{background:#0a0a0a;color:#fff;font-family:-apple-system,BlinkMacSystemFont,
 .cta-section{text-align:center;padding:60px 20px;background:#111}
 .cta-btn{display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;text-decoration:none;border-radius:8px;font-size:1.1rem;font-weight:600;transition:opacity .2s}
 .cta-btn:hover{opacity:.9}
+.cta-btn.secondary{background:transparent;border:1px solid #667eea;color:#fff}
+.cta-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 .stats{display:flex;justify-content:center;gap:60px;padding:40px 20px;border-bottom:1px solid #222}
 .stat{text-align:center}
 .stat .num{font-size:2rem;font-weight:700;color:#667eea}
 .stat .desc{font-size:.85rem;color:#888}
 footer{text-align:center;padding:40px 20px;color:#444;font-size:.85rem}
-@media(max-width:768px){.creatives{grid-template-columns:1fr 1fr}.hero h1{font-size:2rem}.stats{gap:30px}}
+@media(max-width:768px){.creatives{grid-template-columns:1fr 1fr}.hero h1{font-size:2rem}.stats{gap:30px}.cta-actions .cta-btn{width:100%;text-align:center}}
 </style>
 </head>
 <body>
@@ -36,6 +38,10 @@ footer{text-align:center;padding:40px 20px;color:#444;font-size:.85rem}
   <div class="badge">🤖 AI-Generated in &lt;48 Hours</div>
   <h1>AI Ad Creative Portfolio</h1>
   <p>Real sample creatives generated for DTC brands. Each pack includes feed ads, stories, and multiple variations — delivered in 48 hours.</p>
+  <div class="cta-actions" style="margin-top:24px;">
+    <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="cta-btn">Buy $199 Creative Test Pack</a>
+    <a href="https://calendly.com/REPLACE_ME/15min?utm_source=website&utm_medium=cta&utm_campaign=creative-test-pack" class="cta-btn secondary">Book a 15‑min call</a>
+  </div>
 </div>
 
 <div class="stats">
@@ -97,7 +103,10 @@ footer{text-align:center;padding:40px 20px;color:#444;font-size:.85rem}
 <div class="cta-section">
   <h2 style="margin-bottom:16px;font-size:1.8rem">Ready to see what AI can do for your brand?</h2>
   <p style="color:#aaa;margin-bottom:32px;max-width:500px;margin-left:auto;margin-right:auto">Get a custom creative pack for your brand. 48-hour turnaround, no contracts.</p>
-  <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="cta-btn">Get Your Pilot Pack — $199</a>
+  <div class="cta-actions">
+    <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="cta-btn">Buy $199 Creative Test Pack</a>
+    <a href="https://calendly.com/REPLACE_ME/15min?utm_source=website&utm_medium=cta&utm_campaign=creative-test-pack" class="cta-btn secondary">Book a 15‑min call</a>
+  </div>
   <p style="margin-top:12px;color:#666;font-size:.85rem">or <a href="https://buy.stripe.com/14A8wI5Cl2Pha7c8wJcAo01" style="color:#667eea">$499/mo Sprint Plan</a> · <a href="https://buy.stripe.com/4gMbIU7Kt89B4MS7sFcAo02" style="color:#667eea">$1,500/mo Growth Plan</a></p>
 </div>
 

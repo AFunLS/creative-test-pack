@@ -34,6 +34,9 @@
         .cta-box p { color: #aaa; margin-bottom: 20px; }
         .cta-btn { display: inline-block; background: #6366f1; color: #fff; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; }
         .cta-btn:hover { background: #5558e6; }
+        .cta-btn.secondary { background: transparent; border: 1px solid #6366f1; color: #fff; }
+        .cta-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+        @media (max-width: 640px) { .cta-actions .cta-btn { width: 100%; text-align: center; } }
         footer { text-align: center; color: #555; font-size: 13px; margin-top: 60px; padding-top: 20px; border-top: 1px solid #222; }
         footer a { color: #6366f1; text-decoration: none; }
         @media (max-width: 500px) { .stat-grid { grid-template-columns: 1fr; } }
@@ -45,6 +48,15 @@
         
         <h1>Ad Creative Fatigue? Here's How Top DTC Brands Fix It</h1>
         <div class="meta">By Aline Mercer · March 2026 · 6 min read</div>
+
+        <div class="cta-box" style="margin-top:24px;">
+            <h3>Buy the $199 Creative Test Pack</h3>
+            <p>Refresh creative fast and keep winners alive with new angles every week.</p>
+            <div class="cta-actions">
+                <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="cta-btn">Buy $199 Creative Test Pack</a>
+                <a href="https://calendly.com/REPLACE_ME/15min?utm_source=blog&utm_medium=cta&utm_campaign=creative-test-pack" class="cta-btn secondary">Book a 15‑min call</a>
+            </div>
+        </div>
 
         <p>You've been there. An ad creative is crushing it — $0.80 CPMs, 3x ROAS, scaling beautifully. Then, slowly at first, then all at once: CPAs creep up, CTR drops, and your once-winning ad becomes dead weight.</p>
 
@@ -158,7 +170,10 @@
         <div class="cta-box">
             <h3>Break the fatigue cycle</h3>
             <p>Get 10 fresh ad creatives in 48 hours. $199, no contracts.</p>
-            <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="cta-btn">Start a Creative Sprint →</a>
+            <div class="cta-actions">
+                <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="cta-btn">Buy $199 Creative Test Pack</a>
+                <a href="https://calendly.com/REPLACE_ME/15min?utm_source=blog&utm_medium=cta&utm_campaign=creative-test-pack" class="cta-btn secondary">Book a 15‑min call</a>
+            </div>
         </div>
 
         <h2>Signs You Need a Sprint Right Now</h2>

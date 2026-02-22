@@ -70,6 +70,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .cta-banner { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, rgba(79,70,229,0.1), rgba(192,132,252,0.1)); border-radius: 24px; margin: 40px 20px; max-width: 1060px; margin-left: auto; margin-right: auto; }
 .cta-banner h2 { font-size: 2.2rem; margin-bottom: 16px; }
 .cta-banner p { color: var(--muted); margin-bottom: 28px; font-size: 1.1rem; }
+.cta-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.cta-actions .btn { min-width: 220px; text-align: center; }
+.hero-links { margin-top: 14px; font-size: 0.95rem; }
+.hero-links a { color: #667eea; text-decoration: none; }
+.hero-links a:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+  .hero { padding: 64px 16px 48px; }
+  .cta-actions .btn { width: 100%; }
+}
 </style>
 </head>
 <body>
@@ -79,9 +89,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
   <div class="badge">⚡ 48-Hour Turnaround</div>
   <h1>Scroll-Stopping Ad Creatives <span>Powered by AI</span></h1>
   <p>Get 5–10 high-converting ad creatives for your DTC brand. Tailored to your aesthetic. Delivered in 48 hours. No subscriptions, no fluff.</p>
-  <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="btn">Get Started — $199</a>
-  <a href="tiktok-sprint/" class="btn btn-secondary">TikTok Shop Sprint</a>
+  <div class="cta-actions">
+    <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="btn">Buy $199 Creative Test Pack</a>
+    <a href="https://calendly.com/REPLACE_ME/15min?utm_source=website&utm_medium=cta&utm_campaign=creative-test-pack" class="btn btn-secondary">Book a 15‑min call</a>
+  </div>
   <div class="hero-price">One-time payment · No commitment · Money-back guarantee</div>
+  <div class="hero-links"><a href="tiktok-sprint/">See TikTok Shop Sprint →</a></div>
 </section>
 
 <!-- How It Works -->
@@ -283,7 +296,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <div class="cta-banner">
   <h2>Ready to level up your ad creative?</h2>
   <p>48 hours. 5–10 creatives. $199. Zero risk.</p>
-  <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="btn">Get Your Creative Test Pack →</a>
+  <div class="cta-actions">
+    <a href="https://buy.stripe.com/5kQ8wIc0JdtVgvAfZbcAo00" class="btn">Buy $199 Creative Test Pack</a>
+    <a href="https://calendly.com/REPLACE_ME/15min?utm_source=website&utm_medium=cta&utm_campaign=creative-test-pack" class="btn btn-secondary">Book a 15‑min call</a>
+  </div>
 </div>
 
 <footer class="footer">
